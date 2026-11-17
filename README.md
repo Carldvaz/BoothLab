@@ -34,6 +34,16 @@ settings file with every line explained, and a README to install and uninstall b
 4. Make your booths, give them to arenas and click **Save**. Changes apply from the next match
    you load.
 
+## Share a booth
+
+**Export...** (next to the booth's name) saves a booth as a `.booth` file: its chairs, where they
+look and the staff chairs. Who sits doesn't travel: whoever imports it picks their own
+commentators. Made an arena with a custom booth? Share its `.booth` with it.
+
+To add one, double-click the `.booth` file, drag it onto BoothLab's window, or use
+**Import a booth...** (under the booth list). Arena packs (`.arenalab`) open the same way, by
+dragging or with Import.
+
 ## Updates
 
 When BoothLab starts it checks this page for a newer version. If there is one, click
@@ -42,8 +52,9 @@ When BoothLab starts it checks this page for a newer version. If there is one, c
 ## Uninstall
 
 In BoothLab: the settings button (top right) > **Uninstall BoothSwap**. Type the code it shows.
-The plugin and its logs go to the Recycle Bin; your booths and settings go too only if you tick
-that box. BoothLab never touches your plugin loader or other mods.
+The plugin and its logs go to the Recycle Bin, and `.booth` files stop opening with BoothLab.
+Your booths and settings go too only if you tick that box. BoothLab never touches your plugin
+loader or other mods.
 
 ## Notes
 
